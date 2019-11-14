@@ -12,8 +12,12 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
-
+	
+<link href="css-grid.css" rel="stylesheet">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <title>Freiwillige Feuerwehr Hergensweiler</title>
+
+
 </head>
 <body>
 
@@ -54,49 +58,49 @@
 				<li class="nav-item"><a class="nav-link" href="#">Mitmachen</a>
 				</li>
 				<li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
-
-				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
-					data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
-					<ul id="login-dp" class="dropdown-menu">
-						<li>
-							<div class="row">
-								<div class="col-md-12">
-									<form class="form" role="form" method="post" action="login"
-										accept-charset="UTF-8" id="login-nav">
-										<div class="form-group">
-											<label class="sr-only" for="exampleInputEmail2">Email
-												address</label> <input type="email" class="form-control"
-												id="exampleInputEmail2" placeholder="Email address" required>
-										</div>
-										<div class="form-group">
-											<label class="sr-only" for="exampleInputPassword2">Password</label>
-											<input type="password" class="form-control"
-												id="exampleInputPassword2" placeholder="Password" required>
-											<div class="help-block text-right">
-												<a href="">Forget the password ?</a>
-											</div>
-										</div>
-										<div class="form-group">
-											<button type="submit" class="btn btn-primary btn-block">Sign
-												in</button>
-										</div>
-										<div class="checkbox">
-											<label> <input type="checkbox"> keep me
-												logged-in
-											</label>
-										</div>
-									</form>
-								</div>
-								<div class="bottom text-center">
-									New here ? <a href="#"><b>Join Us</b></a>
-								</div>
-							</div>
-						</li>
-					</ul></li>
-
-
 			</ul>
-
+			
+				<ul class="navbar-nav mr-right">
+				<div class="btn-group dropleft">
+					<li class="nav-item dropdown"><a href="#"
+						class="nav-link dropdown-toggle" data-toggle="dropdown"><b>Login</b>
+							<span class="caret"></span></a>
+						<ul id="login-dp" class="dropdown-menu">
+							<li>
+								<div class="row">
+									<div class="col-md-12">
+										<form class="form" role="form" method="post" action="login"
+											accept-charset="UTF-8" id="login-nav">
+											<div class="form-group">
+												<label class="sr-only" for="exampleInputEmail2">Email
+													address</label> <input type="email" class="form-control"
+													id="exampleInputEmail2" placeholder="Email address"
+													required>
+											</div>
+											<div class="form-group">
+												<label class="sr-only" for="exampleInputPassword2">Password</label>
+												<input type="password" class="form-control"
+													id="exampleInputPassword2" placeholder="Password" required>
+												<div class="help-block text-right">
+													<a href="">Forget the password ?</a>
+												</div>
+											</div>
+											<div class="form-group">
+												<button type="submit" class="btn btn-primary btn-block">Sign
+													in</button>
+											</div>
+											
+										</form>
+									</div>
+									<div class="bottom text-center">
+										New here ? <a href="#"><b>Join Us</b></a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+</div>
 		</div>
 	</nav>
 
@@ -109,22 +113,22 @@
 		<div class="carousel-inner">
 
 			<div class="carousel-item active">
-				<img src="../../images/feuerwehrauto.jpg" class="d-block w-100"
+				<img src="../../images/feuerwehrauto2.jpg" class="d-block w-100"
 					alt="...">
 			</div>
 
 			<div class="carousel-item">
-				<img src="../../images/schnee.jpg" class="d-block w-100" alt="...">
+				<img src="../../images/einsatz2.jpg" class="d-block w-100" alt="...">
 			</div>
 
 			<div class="carousel-item">
-				<img src="../../images/onfire.jpg" class="d-block w-100" alt="...">
+				<img src="../../images/onfire2.jpg" class="d-block w-100" alt="...">
 			</div>
 
 
 			<div class="main-text hidden-xs">
 				<div class="col-md-12 text-center">
-					<br /> <br /> <br />
+					<br /> <br /> <br /><br /><br /><br /><br />
 					<h1>
 						<b>Freiwillige Feuerwehr Hergensweiler<b>
 					</h1>
@@ -145,7 +149,7 @@
 				<img src="../../images/Rauchmelder.jpg" class="card-img-top"
 					alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title">Rauchmelderpflicht</h5>
 					<p class="card-text">This is a wider card with supporting text
 						below as a natural lead-in to additional content. This content is
 						a little bit longer.</p>

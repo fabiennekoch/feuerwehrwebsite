@@ -14,5 +14,6 @@ public class servlet  extends HttpServlet{
 		System.out.println(req.getParameter("message"));
 		
 	}
+	
 
 }

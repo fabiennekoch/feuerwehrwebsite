@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class servlet  extends HttpServlet{
 	
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		System.out.println(req.getParameter("message"));
 		
